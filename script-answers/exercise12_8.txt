@@ -1,0 +1,147 @@
+Script started on 2022-07-30 15:50:18-07:00 [TERM="tmux-256color" TTY="/dev/pts/7" COLUMNS="123" LINES="65"]
+[0m[49m[39m[27m[24m[K
+
+[2A7[0m[49m[39m[0m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/[1m[38;5;31m[38;5;39mpart12-containers-applications[0m[38;5;39m[49m[38;5;31m/[1m[38;5;31m[38;5;39mscript-answers[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m[30m[0m[30m[49m[39m                                                                       [0m[49m[39m
+[0m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[?2004h[?25l8[0m[49m[39m[27m[24m[Jk..cript-answers\[0m[38;5;31m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                                                          [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m
+[A[0m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/[1m[38;5;31m[38;5;39mpart12-containers-applications[0m[38;5;39m[49m[38;5;31m/[1m[38;5;31m[38;5;39mscript-answers[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m[39mon [0m[49m[38;5;76m [38;5;76m main [38;5;76m⇡3 [38;5;39m?1[0m[38;5;39m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m                                                     [0m[49m[39m
+[0m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[34h[?25h[?2004hddocker ex  exec -it            d  ddocker container ls[?1l>[?25l[?2004lM[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m docker container ls[K[34h[?25h
+kdocker\CONTAINER ID   IMAGE     COMMAND                  CREATED             STATUS             PORTS                     NAMES
+88522ea945ed   mongo     "docker-entrypoint.s…"   About an hour ago   Up About an hour   0.0.0.0:3456->27017/tcp   todo-backend_mongo_1
+[1m[7m%[27m[1m[0m                                                                                                                           k..cript-answers\[0m[27m[24m[J[0m[49m[39m
+[A[0m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/[1m[38;5;31m[38;5;39mpart12-containers-applications[0m[38;5;39m[49m[38;5;31m/[1m[38;5;31m[38;5;39mscript-answers[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m[39mon [0m[49m[38;5;76m [38;5;76m main [38;5;76m⇡3 [38;5;39m?1[0m[38;5;39m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m                                                     [0m[49m[39m
+[0m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004hddocker exec -it todo
+[0m_devtodo               _p9k__todo_file        _todo.sh               prompt_todo                                 
+[J_p9k__todo_command     [J_p9k_prompt_todo_init  [J_ztodo                 [J                                          MM[0m[27m[24m[0m[27m[24m[39m[49m[2Cdocker exec -it todo[K[0m[27m[24m[39m[49m-bas ckend- _mongo_1 bash[?1l>[?25l[?2004lM[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m docker exec -it todo-backend_mongo_1 bash[K[34h[?25h
+kdocker\root@88522ea945ed:/# mongo -u root -o p example
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("e550ec33-9925-4b19-ba2a-0bf4dd372ebb") }
+MongoDB server version: 5.0.9
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	https://docs.mongodb.com/
+Questions? Try the MongoDB Developer Community Forums
+	https://community.mongodb.com
+---
+The server generated these startup warnings when booting: 
+        2022-07-30T21:38:15.301+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+        2022-07-30T21:38:16.351+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> exit[3G[Jexit[7G
+bye
+root@88522ea945ed:/# mo  mongo -u root -p example[1@s[1@h
+]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	62e5b5fb777833a71e6cb7d5
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.0[0m
+Using MongoDB:		5.0.9
+[1m[33mUsing Mongosh[0m:		1.5.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the [1mdisableTelemetry()[0m command.
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2022-07-30T21:38:15.301+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2022-07-30T21:38:16.351+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+[1m[33m------[0m
+
+[1m[33m------[0m
+   Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+   metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+   
+   The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+   and anyone you share the URL with. MongoDB may use this information to make product
+   improvements and to suggest MongoDB products and deployment options to you.
+   
+   To enable free monitoring, run the following command: db.enableFreeMonitoring()
+   To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+[1m[33m------[0m
+
+[1m[33mWarning: Found ~/.mongorc.js, but not ~/.mongoshrc.js. ~/.mongorc.js will not be loaded.
+  You may want to copy or rename ~/.mongorc.js to ~/.mongoshrc.js.
+[0m[1G[0Jtest> [7Gshow ds[1G[0Jtest> show d[13Gbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m        108.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   72.00 KiB
+[1G[0Jtest> [7Gsh[1G[0Jtest> s[8G[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.find()[1G[0Jthe_database> db.todos.find([29G[1G[0Jthe_database> db.todos.find[28G()
+[
+  {
+    _id: ObjectId("62e5a4c616ea356fa99d3847"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("62e5a4c616ea356fa99d3848"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("62e5a8ff2bda055f77f5afe3"),
+    text: [32m'edited'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insertOne({td[1G[0Jthe_database> db.todos.insertOne({t[36Gext[32m"[39m [1G[0Jthe_database> db.todos.insertOne({text[32m"[39m[40G[1G[0Jthe_database> db.todos.insertOne({text[39G[33mtext[39m: [32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m, [32m"[39m[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [88Gd[36mdo[39mdone[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, don[91Ge[33mdone[39m: fals[33mfalse[39m})
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId("62e5b655296f21735c8f681e")
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[101G[1G[0Jthe_database> db.todos.find()[30G
+[
+  {
+    _id: ObjectId("62e5a4c616ea356fa99d3847"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("62e5a4c616ea356fa99d3848"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("62e5a8ff2bda055f77f5afe3"),
+    text: [32m'edited'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId("62e5b655296f21735c8f681e"),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+root@88522ea945ed:/# exit
+exit
+[1m[7m%[27m[1m[0m                                                                                                                           k..cript-answers\[0m[27m[24m[J[0m[49m[39m
+[A[0m[49m[39m[0m[49m[39m[0m[49m [0m[49m[38;5;31m [1m[38;5;31m[38;5;39m~[0m[38;5;39m[49m[38;5;31m/[1m[38;5;31m[38;5;39mpart12-containers-applications[0m[38;5;39m[49m[38;5;31m/[1m[38;5;31m[38;5;39mscript-answers[0m[38;5;39m[49m[38;5;31m[0m[38;5;31m[49m[38;5;31m[0m[38;5;31m[49m [0m[38;5;31m[49m[38;5;76m[39mon [0m[49m[38;5;76m [38;5;76m main [38;5;76m⇡3 [38;5;39m?1[0m[38;5;39m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m                                        [0m[49m[38;5;101m[39mtook [0m[49m[38;5;101m 2m 23s[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[38;5;101m[0m[38;5;101m[49m[39m
+[0m[49m[38;5;76m❯[0m[38;5;76m[49m[38;5;76m[0m[38;5;76m[49m[30m[0m[30m[49m[39m [0m[49m[39m[K[?1h=[?2004heexit[?1l>[?25l[?2004lM[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m exit[K[34h[?25h
+kexit\
+Script done on 2022-07-30 15:53:22-07:00 [COMMAND_EXIT_CODE="0"]
