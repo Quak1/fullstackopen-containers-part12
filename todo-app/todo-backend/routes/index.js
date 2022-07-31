@@ -21,4 +21,8 @@ router.get("/statistics", async (_, res) => {
   res.send({ addedd_todos: todoCount });
 });
 
+router.get("/health", async (_, res) => {
+  res.send("ok");
+});
+
 module.exports = router;
