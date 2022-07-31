@@ -1,0 +1,7 @@
+services:
+  backend:
+    image: phonebook-back
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile
+    container_name: backend
