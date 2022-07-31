@@ -108,7 +108,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Phonebook</h2>
+      <h2>Phonebook!</h2>
 
       <Notification message={errorMessage} type="error" />
       <Notification message={notification} type="success" />

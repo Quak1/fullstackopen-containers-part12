@@ -17,9 +17,11 @@ const updateNumber = (person) => {
   return axios.put(`${baseUrl}/${person.id}`, person).then((res) => res.data);
 };
 
-export default {
+const exportObject = {
   getAll,
   create,
   deletePerson,
   updateNumber,
 };
+
+export default exportObject;
